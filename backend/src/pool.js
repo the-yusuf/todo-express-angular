@@ -13,4 +13,4 @@ const connectDB = (callback) => {
   callback();
 };
 
-module.exports = connectDB;
+module.exports = { connectDB, pool };
